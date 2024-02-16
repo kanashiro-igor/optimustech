@@ -21,21 +21,21 @@ body {
     box-sizing: border-box;
 }
 
-.header {
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2% 10%;
 }
 
-.header__logo {
+.banner__logo {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     justify-content: center;
 }
 
-.header__logo__title {
+.banner__title {
     font-family: var(--primary-font-family);
     color: #3A404E;
     font-size: var(--subtitles-font-size);
@@ -43,12 +43,12 @@ body {
     font-weight: var(--font-weight-regular-text);
 }
 
-.header__nav {
+.banner__nav {
     display: flex;
     gap: 3rem;
 }
 
-.header__nav__link {
+.nav__link {
     text-decoration: none;
     color: var(--text-color);
     font-family: var(--primary-font-family);
@@ -57,17 +57,17 @@ body {
     font-style: normal;
 }
 
-.header__hidden {
+.banner__hidden {
     width: 8.875rem;
     height: 2rem;
 }
 
-.header__button {
+.banner__button {
     display: flex;
     gap: 0.75rem;
 }
 
-.header__button__login {
+.button__login {
     padding: 0.625rem 1.125rem;
     color: var(--text-color);
     font-family: var(--primary-font-family);
@@ -77,7 +77,7 @@ body {
     text-decoration: none;
 }
 
-.header__button__register {
+.button__register {
     padding: 0.625rem 1.125rem;
     color: var(--base-white);
     font-family: var(--primary-font-family);
@@ -89,7 +89,7 @@ body {
     border-radius: 0.5rem;
 }
 
-.header__content {
+.banner__content {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -98,7 +98,7 @@ body {
     padding: 5% 0;
 }
 
-.header__content__title {
+.content__title {
     font-family: var(--primary-font-family);
     font-weight: var(--font-weight-strong-text);
     font-size: 3rem;
@@ -106,7 +106,7 @@ body {
     color: var(--header-color);
 }
 
-.header__content__paragraph {
+.content__paragraph {
     color: var(--text-color);
     font-family: var(--primary-font-family);
     font-weight: var(--font-weight-light-text);
@@ -173,7 +173,7 @@ body {
     flex-direction: column;
 }
 
-.jobs__content__subtitle {
+.content__subtitle {
     color: var(--secondary-color);
     font-size: var(--small-text-font-size);
     font-weight: var(--font-weight-regular-text);
@@ -184,7 +184,7 @@ body {
     width: 25%;
 }
 
-.jobs__content__title {
+.content__title {
     color: var(--header-color);
     text-align: center;
     font-family: var(--primary-font-family);
@@ -195,7 +195,7 @@ body {
     letter-spacing: -0.045rem;
 }
 
-.jobs__content__paragraph {
+.content__paragraph {
     color: var(--text-color);
     text-align: center;
     font-family: var(--primary-font-family);
@@ -219,7 +219,7 @@ body {
     gap: 4rem;  
 }
 
-.jobs__vacancies__container {
+.vacancies__container {
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -227,7 +227,7 @@ body {
     gap: 2rem;
 }
 
-.jobs__vacancies__container__title {
+.container__title {
     color: var(--header-color);
     font-family: var(--primary-font-family);
     font-size: var(--subtitles-medium-font-size);
@@ -236,7 +236,7 @@ body {
     line-height: 1.875rem;
 }
 
-.jobs__vacancies__container__card {
+.container__card {
     display: flex;
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     flex-direction: column;
@@ -248,7 +248,7 @@ body {
     background: var(--base-white);
 }
 
-.jobs__vacancies__container__card__title {
+.card__title {
     color: var(--header-color);
     font-family: var(--primary-font-family);
     font-size: var(--subtitles-font-size);
@@ -257,14 +257,14 @@ body {
     line-height: 1.75rem;
 }
 
-.jobs__vacancies__container__card__info {
+.card__info {
     display: flex;
     align-items: center;
     gap: 1.5rem;
     align-self: stretch;
 }
 
-.jobs__vacancies__container__card__info__paragraph {
+.card__info__paragraph {
     color: var(--text-color);
     font-family: var(--primary-font-family);
     font-size: var(--medium-text-font-size);
@@ -291,7 +291,7 @@ body {
     gap: 2rem;
 }
 
-.depositions__container__content {
+.container__content {
     display: flex;
     padding: 4rem;
     flex-direction: column;
@@ -302,7 +302,7 @@ body {
     background: rgba(195, 25, 25, 0.03);
 }
 
-.depositions__container__content__subheadingandquote {
+.content__subheadingandquote {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,7 +310,7 @@ body {
     align-self: stretch;
 }
 
-.depositions__container__content__subheadingandquote__subheading {
+.subheadingandquote__subheading {
     color: var(--secondary-color);
     text-align: center;
     font-family: var(--primary-font-family);
@@ -320,7 +320,7 @@ body {
     line-height: 1.25rem;
 }
 
-.depositions__container__content__subheadingandquote__quote {
+.subheadingandquote__quote {
     color: var(--header-color);
     text-align: center;
     font-family: var(--primary-font-family);
@@ -331,14 +331,14 @@ body {
     letter-spacing: -0.045rem;
 }
 
-.depositions__container__content__avatarandtext {
+.content__avatarandtext {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.depositions__container__content__avatarandtext__text {
+.avatarandtext__text {
     color: var(--header-color);
     text-align: center;
     font-family: var(--primary-font-family);
@@ -348,7 +348,7 @@ body {
     line-height: 1.5rem;
 }
 
-.depositions__container__content__avatarandtext__supportingtext {
+.avatarandtext__supportingtext {
     color: var(--text-color);
     text-align: center;
     font-family: var(--primary-font-family);
@@ -386,7 +386,7 @@ body {
     gap: 2.5rem;
 }
 
-.form__container__content__heading {
+.container__content__heading {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -401,21 +401,21 @@ body {
     letter-spacing: -0.045rem;
 }
 
-.form__container__content__heading__text {
+.content__heading__text {
     color: var(--text-color);
     font-size: var(--subtitles-medium-font-size);
     font-weight: var(--font-weight-light-text);
     line-height: 1.875rem;
 }
 
-.form__container__content__email {
+.container__content__email {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
     
 }
 
-.form__container__content__email__input {
+.content__email__input {
     padding: 0.75rem 0.875rem 0.75rem 1rem;
     align-items: center;
     border-radius: 8px;
@@ -429,7 +429,7 @@ body {
     line-height: 1.5rem;
 }
 
-.form__container__content__email__button {
+.content__email__button {
     padding: 0.75rem 1.25rem;
     justify-content: center;
     align-items: center;
@@ -453,35 +453,35 @@ body {
 }
 
 @media (max-width : 820px) {
-    .header {
+    .banner {
         padding: 2% 2%;
         gap: 1rem;
         flex-direction: column-reverse;
     }
 
-    .header__hidden {
+    .banner__hidden {
         height: 0.5rem;
     }
 }
 
 @media (max-width : 720px) {
-    .header__nav {
+    .banner__nav {
         gap: 1rem;
     }
 
-    .header__button {
+    .banner__button {
         gap: 0.2rem;
     }
 
-    .header__button__login {
+    .button__login {
         padding: 0.625rem 1rem;
     }
 
-    .header__button__register {
+    .button__register {
         padding: 0.625rem 1rem;
     }
 
-    .header__content {
+    .banner__content {
         text-align: center;
     }
 
@@ -499,19 +499,19 @@ body {
         width: auto;
     }
 
-    .jobs__vacancies__container {
+    .vacancies__container {
         width: 100%;
     }
 
-    .jobs__vacancies__container__title {
+    .container__title {
         font-size: 1.5rem;
     }
 
-    .jobs__vacancies__container__card__title {
+    .card__title {
         font-size: 1.2rem;
     }
 
-    .jobs__vacancies__container__card__info__paragraph {
+    .card__info__paragraph {
         font-size: 1.1rem;
     }
 
@@ -519,7 +519,7 @@ body {
         padding-bottom: 2rem;
     }
 
-    .depositions__container__content__subheadingandquote__quote {
+    .subheadingandquote__quote {
         font-size: 2.0rem;
     }
 
@@ -533,21 +533,21 @@ body {
         width: auto;
     }
 
-    .form__container__content__heading {
+    .container__content__heading {
         font-size: 1.8rem;
     }
 }
 
 @media (max-width : 280px) {
-    .header {
+    .banner {
         gap: 0.5rem;
     }
     
-    .header__logo {
+    .banner__logo {
         padding: 4% 0;
     }
 
-    .header__nav {
+    .banner__nav {
         flex-direction: column;
     }
 
@@ -555,7 +555,7 @@ body {
         padding-bottom: 3rem;
     }
 
-    .depositions__container__content {
+    .container__content {
         padding: 3rem;
     }
 
@@ -564,7 +564,7 @@ body {
         text-align: center;
     }
 
-    .form__container__content__email {
+    .container__content__email {
         flex-direction: column;
         align-items: center;
     }

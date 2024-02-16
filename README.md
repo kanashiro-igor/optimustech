@@ -1,4 +1,5 @@
-# optimustech
+# optimustech ![Static Badge](https://img.shields.io/badge/License-MIT-blue)
+
 Webpage using HTML and CSS. 
 
 Based on Alura's "7 Days Of Code" challenge.

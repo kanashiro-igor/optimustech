@@ -1,4 +1,4 @@
-# Optimustech ![Static Badge](https://img.shields.io/badge/HTML-green) ![Static Badge](https://img.shields.io/badge/CSS-green) ![Static Badge](https://img.shields.io/badge/License-MIT-blue)
+# Optimustech ![Static Badge](https://img.shields.io/badge/HTML5-green) ![Static Badge](https://img.shields.io/badge/CSS-green) ![Static Badge](https://img.shields.io/badge/License-MIT-blue)
 
 Webpage using HTML and CSS. 
 
